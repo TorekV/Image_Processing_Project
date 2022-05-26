@@ -9,6 +9,7 @@ from object_detector import *
 import numpy as np
 #import measure_object_size
 import cv2
+import os
 from PIL import Image as im
 
 #YÜKLENEN FOTOĞRAFLAR REAL IMAGE OLANLAR JPG OLMASI LAZIM TEKNİK ÇİZİMLER FARK ETMİYOR ŞİMDİLİK.
@@ -22,7 +23,7 @@ class MainWindow(QWidget):
         super().__init__()
         self.ui = user_interface()
         self.ui.setupUi(self)
-        self.path = r'C:\Users\musta\Desktop\Image_Processing_Project\Objects_File'
+        self.path = os.getcwd() + r'\Objects_File'
         self.first_folders = os.listdir(self.path)
         os.chdir(self.path)
         for i in self.first_folders:
