@@ -6,6 +6,8 @@ Click on main.exe in that directory to run the program.
 
 To use the interface:
 
+Attention! First thing to do is hitting "Refresh Items" button. After hitting "Refresh Items" button drop down list will have the item folders' names in it. After this very first step follow the instructions below. If you do not click "Refresh Items" at the beginning you will not see the folders that contain the image and CAD drawings of the objects.
+
 1. First chceck the drop down list on top left.
 
 2. Choose whichever item you want to measure.
